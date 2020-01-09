@@ -27,7 +27,7 @@ spring:
     show_sql: true
 
 server: 
- port: ${warmup.server.port:8443}
+ port: ${warmup.server.port:8080}
  servlet:
     context-path: /warmup
 
