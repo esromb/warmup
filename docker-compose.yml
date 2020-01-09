@@ -23,7 +23,7 @@ services:
   environment:
    DB_HOST: mysql
    DB_PORT: 3306
-   DB_SCHEMA: localtest
+   DB_SCHEMA: warm_up
   depends_on:
    - mysql
   networks:
