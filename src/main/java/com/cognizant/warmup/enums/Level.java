@@ -4,7 +4,7 @@ import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum Level {
 
-	ONE, TWO, THREE;
+	ONE, TWO, THREE, FOUR;
 
 	Level() {
 	}
