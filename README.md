@@ -37,3 +37,14 @@ Step to run:
   
   localhost:8080/warmup/users or if you add query in repository with annotation @RestResource(path = "findByName")
   then localhost:8080/warmup/users/search/findByName and query parameters
+  
+  ###TO START MYSQL ALONE
+  * first export project_home the directory where the project is checked out
+    `export project_home=~/Downloads`
+    
+  * then cd to warmup root folder and 
+  
+  	`docker-compose up mysql`
+  	
+  * then for development you can run your application from eclipse or intellij
+  
