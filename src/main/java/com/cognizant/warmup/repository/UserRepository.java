@@ -7,5 +7,7 @@ import com.cognizant.warmup.domain.User;
 
 @RepositoryRestResource
 public interface UserRepository extends PagingAndSortingRepository<User, Integer> {
+	
+	public User findByUsernameAndPassword(String username, String password);
 
 }
