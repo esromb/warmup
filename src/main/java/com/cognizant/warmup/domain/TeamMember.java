@@ -27,7 +27,7 @@ public class TeamMember {
 	private Integer id;
 	
 	@Column(name = "first_name")
-	private String firsName;
+	private String firstName;
 	
 	@Column(name = "last_name")
 	private String lastName;
@@ -77,11 +77,11 @@ public class TeamMember {
 	}
 
 	public String getFirsName() {
-		return firsName;
+		return firstName;
 	}
 
 	public void setFirsName(String firsName) {
-		this.firsName = firsName;
+		this.firstName = firsName;
 	}
 
 	public String getLastName() {
