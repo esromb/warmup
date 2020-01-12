@@ -76,11 +76,11 @@ public class TeamMember {
 		this.id = id;
 	}
 
-	public String getFirsName() {
+	public String getFirstName() {
 		return firstName;
 	}
 
-	public void setFirsName(String firsName) {
+	public void setFirstName(String firsName) {
 		this.firstName = firsName;
 	}
 
