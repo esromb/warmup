@@ -1,6 +1,9 @@
 spring:
   application:
      name: warmup
+  mvc:
+   async:
+    request-timeout: 5000ms
   data: 
      rest:
         basePath: /

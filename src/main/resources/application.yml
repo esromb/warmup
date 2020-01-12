@@ -1,6 +1,9 @@
 spring:
   application:
    name: payment-data
+  mvc:
+   async:
+    request-timeout: 5000ms
   data: 
    rest:
         basePath: /
