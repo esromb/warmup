@@ -4,7 +4,7 @@ plugins {
 	id 'java'
 }
 
-group = 'com.cognizant'
+group = 'com.eso'
 version = "${major}.${minor}_${BUILD_NUMBER}"
 sourceCompatibility = '1.8'
 
