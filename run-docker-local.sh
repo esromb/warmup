@@ -32,7 +32,9 @@ export project_home=${project_home}
 
 gradle clean build -Pmajor=${major} -Pminor=${minor} -PBUILD_NUMBER=${BUILD_NUMBER}
 
-echo "build number-${BUILD_NUMBER}"
+
+#helpful for debugging 
+docker-compose config
 
 docker-compose build --build-arg major=${major} --build-arg minor=${minor} --build-arg BUILD_NUMBER=${BUILD_NUMBER}
 
