@@ -10,7 +10,7 @@ you need the following tool installed locally
 * git-cli
 
 Step to run:
-
+############
 * checkout the project
 * go to project root folder
 * update run-docker-local.sh variable
